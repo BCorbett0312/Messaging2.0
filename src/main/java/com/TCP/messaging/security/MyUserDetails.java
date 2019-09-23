@@ -1,8 +1,9 @@
 package com.TCP.messaging.security;
 
-import com.mtgborrow.borrow.models.Role;
-import com.mtgborrow.borrow.models.User;
-import com.mtgborrow.borrow.repositories.UserRepository;
+
+import com.TCP.messaging.model.Role;
+import com.TCP.messaging.model.User;
+import com.TCP.messaging.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

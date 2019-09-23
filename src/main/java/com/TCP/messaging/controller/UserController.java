@@ -27,7 +27,7 @@ public class UserController {
     @PostMapping ("/signin")
     @ResponseStatus(HttpStatus.CREATED)
     public String login(@RequestParam String username, @RequestParam String password) {
-        return null;
+        return userService.signin(username, password);
     }
 
     @PostMapping("/signup")
